@@ -1,0 +1,26 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:statusBarColor">#000000</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <item name="colorPrimary">#000000</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">#1DB954</item> <item name="android:windowBackground">#121212</item>
+    </style>
+
+    <style name="Button1Style" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">#FFCCBC</item>
+        <item name="colorButtonNormal">#FF5722</item>
+    </style>
+
+    <style name="Button2Style" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">#E0F2F1</item>
+        <item name="colorButtonNormal">#009688</item>
+    </style>
+
+    <style name="Button3Style" parent="Theme.AppCompat.Light">
+        <item name="colorButtonNormal">#1DB954</item> <item name="colorControlHighlight">#1ed760</item>
+    </style>
+    
+</resources>

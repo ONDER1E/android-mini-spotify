@@ -1,0 +1,32 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    // 1.9.22 is stable and compatible with Gradle 8+
+    ext.kotlin_version = '1.9.22' 
+    
+    repositories {
+        google()
+        mavenCentral() // Replaces jcenter()
+    }
+    dependencies {
+        // AGP 8.1.2 works well with the Kotlin version above
+        classpath 'com.android.tools.build:gradle:8.1.2'
+        
+        // Updated google-services to be compatible with modern Gradle
+        classpath 'com.google.gms:google-services:4.4.0'
+        
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+// Modern Gradle task syntax for cleaning
+tasks.register('clean', Delete) {
+    delete rootProject.buildDir
+}

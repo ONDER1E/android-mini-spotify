@@ -1,0 +1,35 @@
+R_DEF: Internal format may change without notice
+local
+color colorAccent
+color colorPrimary
+color colorPrimaryDark
+color colorWhite
+color ic_launcher_background
+drawable bg_main
+drawable cs_custom_progressbar
+drawable ic_logo
+drawable ic_love
+drawable ic_no_internet
+drawable ic_warning
+id app_logo
+id btn_try_again
+id img_no_internet
+id layout_footer
+id layout_no_internet
+id layout_splash
+id layout_webview
+id progressBar
+id swipe_container
+id txt_detail
+id txt_title
+id view_splash
+id webview
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_foreground
+mipmap ic_launcher_round
+string app_name
+style AppTheme
+style Button1Style
+style Button2Style
+style Button3Style
